@@ -1,0 +1,28 @@
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+.nav-link {
+    transition: .2s;
+    color: black;
+}
+
+.nav-link:hover {
+  transform: translate(0,-2px);
+  color: black;
+}
+
+#titleSection {
+  min-height: 50vh;
+}
+
+.rounded-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

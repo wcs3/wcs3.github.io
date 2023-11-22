@@ -1,30 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>William Schmidt</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>William Schmidt</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
-    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
-    crossorigin="anonymous"></script>
-</head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
 
-<body>
-  <nav class="navbar navbar-expand-sm navbar-light bg-primary">
-    <div class="container-fluid">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">GITHUB</a>
-        <a class="nav-link" aria-current="page" href="#">LINKEDIN</a>
-        <a class="nav-link" aria-current="page" href="#">EMAIL</a>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="titleSection" class="d-flex flex-column">
+      <nav
+        id="myNavbar"
+        class="navbar navbar-expand-sm bg-white border-bottom border-1 border-black"
+      >
+        <div class="container-fluid justify-content-sm-center">
+          <div class="navbar-nav gap-3">
+            <a
+              class="nav-link fs-5"
+              aria-current="page"
+              href="https://github.com/wcs3"
+              >GITHUB</a
+            >
+            <a
+              class="nav-link fs-5"
+              aria-current="page"
+              href="www.linkedin.com/in/wcschmidt"
+              >LINKEDIN</a
+            >
+            <a
+              class="nav-link fs-5"
+              aria-current="page"
+              href="mailto: wcschmidt99@gmail.com"
+              >EMAIL</a
+            >
+          </div>
+        </div>
+      </nav>
+      <div class="container-md d-flex flex-grow-1">
+        <div
+          class="row p-4 p-sm-0 pt-sm-5 justify-content-center align-items-center"
+        >
+          <div class="col-sm-8">
+            <h1 class="text-nowrap">Hello! My name</h1>
+            <h1 class="text-nowrap">
+              is
+              <mark class="p-0 px-1 bg-black text-white">William Schmidt</mark>.
+            </h1>
+            <p class="d-none d-md-block lead">
+              I'm an aspiring Embedded Software Engineer on a mission to bring
+              intelligence to the heart of devices. With a keen eye for detail
+              and a love for problem-solving, I thrive in the world of embedded
+              systems, writing optimized low-level code to get the best out of
+              low-power hardware.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
-</body>
+    <div id="biography" class="border-top border-1 border-black">
+      <div class="container-md d-flex flex-column">
+        <div class="pt-4 d-flex justify-content-center">
+          <h1>Bio</h1>
+        </div>
+        <div class="d-md-flex gap-4 pb-4 px-4 px-md-0">
+          <div class="d-flex justify-content-center pt-4">
+            <img
+              src="/assets/images/bio_photo.jpg"
+              alt="headshot"
+              style="max-height: 250px; object-fit: contain"
+            />
+          </div>
+          <p class="pt-4">
+            Greetings, I'm William, an aspiring Embedded Engineer driven by a
+            lifelong fascination with the intricate dance between hardware and
+            software. My journey began in childhood where I garnered a passion
+            for making. It all started with building analog circuits from kits,
+            then progressed into the world of Arduino, and then ultimately to
+            passion projects involving custom PCBs and microcontrollers. Through
+            my studies in Computer Science and my projects, I've honed my coding
+            skills in C/C++, Python, and Assembly, setting the stage for a
+            career in breathing life into machines.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="education" class="border-top border-1 border-black">
+      <div class="container-md">
+        <div class="pt-4 d-flex justify-content-center">
+          <h1>Education</h1>
+        </div>
+        <div class="row pb-4">
+          <div class="col-md d-flex gap-4 pt-4">
+            <div>
+              <div class="d-flex">
+                <img width="70" src="assets/images/langara_college_logo.jpeg" />
+              </div>
+            </div>
+            <div>
+              <h5 class="fw-bold m-0">Langara College</h5>
+              <p class="fst-italic m-0">Computer Science, Associate's Degree</p>
+              <p class="text-body-secondary">2022-2023</p>
+            </div>
+          </div>
+          <div class="col-md d-flex gap-4 pt-4">
+            <div>
+              <div class="d-flex">
+                <img
+                  width="70"
+                  src="assets/images/simon_fraser_university_logo.jpeg"
+                />
+              </div>
+            </div>
+            <div>
+              <h5 class="fw-bold m-0">Simon Fraser University</h5>
+              <p class="fst-italic m-0">Computer Science, Bachelor's Degree</p>
+              <p class="text-body-secondary">2023-Present</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="projects" class="border-top border-1 border-black">
+      <div class="container-md">
+        <div class="pt-4 d-flex justify-content-center">
+          <h1>Projects</h1>
+        </div>
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4 justify-content-center py-4"
+        >
+          <div class="col">
+            <div class="border border-1 border-black p-4 h-100">
+              <div class="d-flex flex-column align-items-center gap-2 h-100">
+                <a
+                  href="https://github.com/davidfcui/webapp"
+                  class="rounded-icon text-decoration-none"
+                  ><img
+                    width="60px"
+                    height="60px"
+                    src="assets/images/plateful_logo.png"
+                /></a>
+                <h5 class="text-center fw-bold">Plateful Web Application</h5>
+                <ul>
+                  <li>
+                    Culinary assistant webapp for discovering recipes and
+                    finding nutritional information about ingredients
+                  </li>
+                  <li>
+                    Collaborative project between myself and 2 fellow students
+                    at SFU
+                  </li>
+                  <li>Built with React.js</li>
+                </ul>
+                <a class="mt-auto" href="https://github.com/davidfcui/webapp"
+                  >SEE MORE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="border border-1 border-black p-4 h-100">
+              <div class="d-flex flex-column align-items-center gap-2 h-100">
+                <a
+                  href="https://github.com/wcs3/GPS_CLock"
+                  class="text-decoration-none"
+                  ><img
+                    width="60px"
+                    height="60px"
+                    src="assets/images/1200px-FP_Satellite_icon.svg.png"
+                /></a>
+                <h5 class="text-center fw-bold">GPS Clock</h5>
+                <ul>
+                  <li>
+                    A multi-function clock device whose main purpose is to
+                    maintain precise and accurate time via GPS Satellite
+                    communication
+                  </li>
+                  <li>Fully custom hardware, electronics, and software</li>
+                  <li>
+                    PCB Designed with KiCAD, an open source ECAD software.
+                  </li>
+                </ul>
+                <a class="mt-auto" href="https://github.com/wcs3/GPS_CLock"
+                  >SEE MORE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="border border-1 border-black p-4 h-100">
+              <div class="d-flex flex-column align-items-center gap-2 h-100">
+                <a
+                  href="https://github.com/wcs3/xbn"
+                  class="rounded-icon text-decoration-none"
+                  >xbn</a
+                >
+                <h5 class="text-center fw-bold">xbn Compression Library</h5>
+                <ul>
+                  <li>
+                    Implements a modified run length encoding compression
+                    algorithm for bi-level signals from a research paper
+                  </li>
+                  <li>
+                    Low memory overhead and fast processing make it suitable for
+                    performance-limited applications
+                  </li>
+                  <li>Written in C</li>
+                </ul>
+                <a class="mt-auto" href="https://github.com/wcs3/xbn"
+                  >SEE MORE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="border border-1 border-black p-4 h-100">
+              <div class="d-flex flex-column align-items-center gap-2 h-100">
+                <a
+                  href="https://github.com/wcs3/qtc"
+                  class="rounded-icon text-decoration-none"
+                  >qtc</a
+                >
+                <h5 class="text-center fw-bold">
+                  Quadtree Compression Library
+                </h5>
+                <ul>
+                  <li>
+                    Exploration in optimizing Quadtree based image compression
+                  </li>
+                  <li>
+                    Yields compression ratios comparable to PNG for certain
+                    image types
+                  </li>
+                  <li>Written in C</li>
+                </ul>
+                <a class="mt-auto" href="https://github.com/wcs3/qtc"
+                  >SEE MORE</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border-top border-1 border-black">
+      <div class="container-lg">
+        <div class="pt-4 d-flex justify-content-center">
+          <h1>Gallery</h1>
+        </div>
+        <img
+          class="img-fluid"
+          src="assets/images/pcbback_render.png"
+          alt="GPS_CLock PCB Render"
+        />
+      </div>
+    </div>
 
+    <div class="border-top border-1 border-black py-4">
+      <h1 class="text-center">Contact</h1>
+      <nav id="myNavbar" class="navbar navbar-expand-sm bg-white">
+        <div class="container-fluid justify-content-sm-center">
+          <div class="navbar-nav gap-3">
+            <a
+              class="nav-link fs-5"
+              aria-current="page"
+              href="https://github.com/wcs3"
+              >GITHUB</a
+            >
+            <a
+              class="nav-link fs-5"
+              aria-current="page"
+              href="www.linkedin.com/in/wcschmidt"
+              >LINKEDIN</a
+            >
+            <a
+              class="nav-link fs-5"
+              aria-current="page"
+              href="mailto: wcschmidt99@gmail.com"
+              >EMAIL</a
+            >
+          </div>
+        </div>
+      </nav>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
